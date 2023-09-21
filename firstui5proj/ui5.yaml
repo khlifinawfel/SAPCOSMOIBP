@@ -1,0 +1,31 @@
+specVersion: "3.1"
+metadata:
+  name: firstui5proj
+type: application
+server:
+  customMiddleware:
+    - name: fiori-tools-proxy
+      afterMiddleware: compression
+      configuration:
+        ignoreCertError: false
+        backend:
+          - path: /sap
+            url: https://c75f608d-4148-434a-88e1-64b75d24911a.abap.us10.hana.ondemand.com
+            scp: true
+            destination: abap-cloud-default_abap-trial-54acc80ctrial_usa-trial-aws-8kbd5fw6-dev_abap_fiori_btp
+        ui5:
+          path:
+            - /resources
+            - /test-resources
+          url: https://ui5.sap.com
+    - name: fiori-tools-appreload
+      afterMiddleware: compression
+      configuration:
+        port: 35729
+        path: webapp
+        delay: 300
+    - name: fiori-tools-preview
+      afterMiddleware: fiori-tools-appreload
+      configuration:
+        component: firstui5proj
+        ui5Theme: sap_fiori_3

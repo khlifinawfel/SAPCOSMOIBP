@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/m/MessageToast"],function(e,n){"use strict";return e.extend("firstui5proj.controller.RegistrationPage",{onInit:function(){},pressOnTileOne:function(e){n.show("The generic tile one pressed.")},pressOnTileTwo:function(e){n.show("The generic tile two pressed.")},pressOnTileThree:function(e){n.show("The generic tile Three pressed.")}});return PageController});
+//# sourceMappingURL=RegistrationPage.controller.js.map

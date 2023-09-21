@@ -1,0 +1,109 @@
+<mvc:View
+		xmlns="sap.m"
+		xmlns:mvc="sap.ui.core.mvc"
+          displayBlock="true" 
+		xmlns:f="sap.f"
+		xmlns:w="sap.ui.integration.widgets"
+		controllerName="firstui5proj.controller.RegistrationPage"
+		xmlns:form="sap.ui.layout.form" xmlns:l="sap.ui.layout">
+
+<l:HorizontalLayout id="layoudata1">
+    		<SlideTile id="slidetileid" class="sapUiTinyMarginBegin sapUiTinyMarginTop">
+			<GenericTile id="generictileid"
+				backgroundImage="test-resources/sap/m/demokit/sample/SlideTile/images/NewsImage2.png"
+				frameType="TwoByOne" press="pressOnTileOne">
+				<TileContent id="tilecontentid" footer="September 21, 2023">
+					<NewsContent id="newscontentid"
+						contentText="Navigating Complexity and Uncertainty Prescriptive AI Simulation and Enterprise Digital Twins"
+						subheader="Today, Cosmotech News" />
+				</TileContent>
+			</GenericTile>
+			<GenericTile id="generictileid1"
+				backgroundImage="test-resources/sap/m/demokit/sample/SlideTile/images/NewsImage1.png"
+				frameType="TwoByOne" press="pressOnTileTwo">
+				<TileContent id="tilecontentid1" footer="September 21, 2023">
+					<NewsContent id="newscontentid1"
+						contentText="Cosmo Tech brings an AI-Simulation decisioning tool powered by goal-seeking simulations "
+						subheader="Today, Cosmotech News" />
+				</TileContent>
+			</GenericTile>
+		</SlideTile>
+
+            		<SlideTile id="slidetileid1" class="sapUiTinyMarginBegin sapUiTinyMarginTop">
+			<GenericTile id="generictileid3"
+				backgroundImage="test-resources/sap/m/demokit/sample/SlideTile/images/NewsImage2.png"
+				frameType="TwoByOne" press="pressOnTileTwo">
+				<TileContent id="tilecontentid3" footer="September 21, 2023">
+					<NewsContent id="newscontentid3"
+						contentText="Decision makers use Cosmo Tech software to navigate through complexity and uncertainty"
+						subheader="Today, Cosmotech News" />
+				</TileContent>
+			</GenericTile>
+			<GenericTile id="generictileid2"
+				backgroundImage="test-resources/sap/m/demokit/sample/SlideTile/images/NewsImage1.png"
+				frameType="TwoByOne" press="pressOnTileTwo">
+				<TileContent id="tilecontentid2" footer="September 21, 2023">
+					<NewsContent id="newscontentid2"
+						contentText="Predict the environmental impact of each scenario and find emission-reduction opportunities"
+						subheader="Today, Cosmotech News" />
+				</TileContent>
+			</GenericTile>
+		</SlideTile>
+
+
+             <SlideTile id="slidetileid4" class="sapUiTinyMarginBegin sapUiTinyMarginTop">
+			<GenericTile id="generictileid4"
+				backgroundImage="test-resources/sap/m/demokit/sample/SlideTile/images/NewsImage2.png"
+				frameType="TwoByOne" press="pressOnTileThree">
+				<TileContent id="tilecontentid5" footer="September 21, 2023">
+					<NewsContent id="newscontentid5"
+						contentText="SAP Unveils Powerful New Player Comparision Tool Exclusively on NFL.com"
+						subheader="Today, Cosmotech News" />
+				</TileContent>
+			</GenericTile>
+			<GenericTile id="generictileid6"
+				backgroundImage="test-resources/sap/m/demokit/sample/SlideTile/images/NewsImage1.png"
+				frameType="TwoByOne" press="pressOnTileTwo">
+				<TileContent id="tilecontentid6" footer="September 21, 2023">
+					<NewsContent id="newscontentid6"
+						contentText="Find the optimal trade-off between cost, performance, risk of failure and sustainability and plan efficiently for the future"
+						subheader="Today, Cosmotech News" />
+				</TileContent>
+			</GenericTile>
+		</SlideTile>
+
+        </l:HorizontalLayout>
+        
+	<f:GridContainer id="grd" class="sapUiSmallMargin">
+		<w:Card  id="listTest">
+			<w:layoutData>
+				<f:GridContainerItemLayoutData id="id1" columns="4"/>
+			</w:layoutData>
+		</w:Card>
+		<w:Card  id="list">
+			<w:layoutData>
+				<f:GridContainerItemLayoutData id="id2" columns="3"/>
+			</w:layoutData>
+		</w:Card>
+		<w:Card id="error">
+			<w:layoutData>
+				<f:GridContainerItemLayoutData id="id9" columns="4"/>
+			</w:layoutData>
+		</w:Card>
+		<w:Card id="all">
+			<w:layoutData>
+				<f:GridContainerItemLayoutData  id="id5" columns="4"/>
+			</w:layoutData>
+		</w:Card>
+		<w:Card id="descriptionTitle">
+			<w:layoutData>
+				<f:GridContainerItemLayoutData id="id7" columns="3"/>
+			</w:layoutData>
+		</w:Card>
+		<w:Card id="iconTitle">
+			<w:layoutData>
+				<f:GridContainerItemLayoutData id="id6" columns="4"/>
+			</w:layoutData>
+		</w:Card>
+	</f:GridContainer>
+</mvc:View>
