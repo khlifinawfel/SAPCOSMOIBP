@@ -118,6 +118,6 @@
     },
     "sap.cloud": {
         "public": true,
-        "service": "zmta_ui5_demo_apps"
+        "service": "helloworldhelloworld"
     }
 }
