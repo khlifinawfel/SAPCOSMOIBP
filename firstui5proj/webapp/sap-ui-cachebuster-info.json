@@ -1,0 +1,22 @@
+{
+  "Component-dbg.js": 1695167338264,
+  "manifest.json": 1695245850548,
+  "controller/RegistrationPage.controller.js": 1695245451613,
+  "controller/App.controller.js": 1695167338288,
+  "model/models.js": 1695167338284,
+  "Component.js": 1695167338264,
+  "controller/App-dbg.controller.js": 1695167338288,
+  "controller/App.controller.js.map": 1695245850720,
+  "controller/RegistrationPage-dbg.controller.js": 1695245451613,
+  "controller/RegistrationPage.controller.js.map": 1695245850721,
+  "model/models-dbg.js": 1695167338284,
+  "model/models.js.map": 1695245850702,
+  "i18n/i18n.properties": 1695245781458,
+  "Component.js.map": 1695245850719,
+  "Component-preload.js": 1695245850817,
+  "Component-preload.js.map": 1695245850817,
+  "view/RegistrationPage.view.xml": 1695245433458,
+  "view/App.view.xml": 1695167338288,
+  "css/style.css": 1695167338288,
+  "index.html": 1695167338264
+}
